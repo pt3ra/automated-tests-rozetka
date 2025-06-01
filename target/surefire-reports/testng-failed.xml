@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Rozetka Test Suite]">
+  <test thread-count="5" verbose="0" name="Rozetka Tests(failed)">
+    <classes>
+      <class name="com.rozetka.tests.ProductTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAddToCart"/>
+          <include name="testProductPageOpens"/>
+        </methods>
+      </class> <!-- com.rozetka.tests.ProductTest -->
+      <class name="com.rozetka.tests.HomePageTest">
+        <methods>
+          <include name="testCategoriesMenuVisible"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rozetka.tests.HomePageTest -->
+      <class name="com.rozetka.tests.CartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testProductAddedToCart"/>
+          <include name="testCartTotalCalculation"/>
+        </methods>
+      </class> <!-- com.rozetka.tests.CartTest -->
+      <class name="com.rozetka.tests.SearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testEmptySearch"/>
+          <include name="testSearchForProduct"/>
+        </methods>
+      </class> <!-- com.rozetka.tests.SearchTest -->
+    </classes>
+  </test> <!-- Rozetka Tests(failed) -->
+</suite> <!-- Failed suite [Rozetka Test Suite] -->

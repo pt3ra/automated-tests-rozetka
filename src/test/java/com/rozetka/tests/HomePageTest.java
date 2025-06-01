@@ -26,9 +26,4 @@ public class HomePageTest extends TestBase {
      Assertions.assertTrue(homePage.isCategoriesMenuDisplayed(), "Categories menu is not visible");
  }
  
- @Test
- public void testLogin() {
-     HomePage homePage = new HomePage(driver);
-     Assertions.assertTrue(homePage.isCategoriesMenuDisplayed(), "Categories menu is not visible");
- }
 }
